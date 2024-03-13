@@ -1,0 +1,200 @@
+@import url(https://fonts.googleapis.com/css2?family=Slackside+One&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    width: 1200px;
+    max-width: 95%;
+    margin: auto;
+}
+.icon{
+    color: #0800ff; 
+    display: inline-block;
+    font-size: 29px;
+    position: absolute;
+    top: 39px;
+    right: 110px;
+    z-index: 2;
+}
+.icon2{
+    color: #ffffff; 
+    display: inline-block;
+    font-size: 45px;
+    position: absolute;
+    top: 30px;
+    right: 100px;
+    z-index: 1;
+    text-shadow: 1px 5px 30px rgb(255, 255, 255);
+}
+
+.bgimg{
+    width:100%;
+    height:100vh;
+    background-image: url(https://images.unsplash.com/photo-1656608138197-2aea23cc3564?q=80&w=1977&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+        
+.navlinks a{
+    display: inline-block;
+    position: relative;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+    justify-content: center;
+    font-family: "Slackside One", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .navlinks a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2.3px;
+    transition: width .3s;
+    background: rgb(0, 4, 255);
+    box-shadow: 0 0 20px 5px #6b6bbe;  
+  }
+
+  .navlinks a:hover::after {
+    width: 100%;
+    transition: width .3s;
+  }
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    text-align: center;}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:5px 0px ;}
+
+.navlogo img{
+width: 65px;
+margin: 10px;
+float:left;
+ -webkit-transition : width 1s,-webkit-transform 1s;
+filter: drop-shadow(10px 5px 5px rgb(68, 59, 222));
+}
+
+.navlogo img:hover{
+-webkit-transform :rotateY(-360deg);
+}
+.Text{
+    font-size: 90px;
+    color:#ffffff;
+    font-family: "Pacifico", bold;
+    display: inline-block;
+    position: absolute;
+    bottom: 340px;
+    font-family:"Slackside One" ;
+    transition:0.5s;
+}
+.Text2 p{
+color: aliceblue;
+font-size: 20px;
+color:#ffffff;
+width: 400px;
+font-family: "Pacifico", bold;
+display: inline-block;
+position: absolute;
+bottom: 200px;
+font-family: "Slackside One";
+}
+.Text2 button{
+width: 130px;
+height: 50px;
+display: inline-block;
+position: absolute;
+bottom: 100px;
+border: none;
+border-radius: 10px;
+background-color: #0d00ff;
+background-image: linear-gradient(160deg, #0017e9 0%, #679ff8 100%);
+color: #ffffff;
+font-size: 15px;
+font-family: "Poppins", sans-serif;
+letter-spacing: 3px;
+text-align: center;
+}
+
+.Text:hover{
+    filter: drop-shadow(10px 5px 5px rgb(13, 0, 255));
+}
+.Text2 button:hover{
+background-color: #0d00ff;
+background-image: linear-gradient(160deg,#679ff8 0%, #1626d4 100%);
+}
+.boxs{
+    display: flex;
+    flex-wrap: wrap;
+    position:absolute;
+    bottom: 50px;
+    right: 50px;
+    gap: 20px;
+}
+.box1 img{
+    width: 200px;
+    border-radius: 10px;
+    height: 300px;
+    box-shadow: 0px 10px 20px 2px rgba(209, 209, 209, 0.359);
+}
+.box2 img{
+    width: 200px;
+    border-radius: 10px;
+    height: 300px;
+    box-shadow: 0px 10px 20px 2px rgba(209, 209, 209, 0.359);
+}.box3 img{
+    width: 200px;
+    border-radius: 10px;
+    height: 300px;
+    box-shadow: 0px 10px 20px 2px rgba(209, 209, 209, 0.359);
+}.box4 img{
+    width: 200px;
+    border-radius: 10px;
+    height: 300px;
+    box-shadow: 0px 10px 20px 2px rgba(209, 209, 209, 0.359);
+}
+.box1:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px 2px rgb(13, 0, 255);
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+}
+.box2:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px 2px rgb(13, 0, 255);
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+}
+.box3:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px 2px rgb(13, 0, 255);
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+}
+.box4:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px 2px rgb(13, 0, 255);
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+}
